@@ -1,17 +1,17 @@
-# temporary-email
+# temporary-mail
 
 > Temporary mailboxes for end-to-end testing, QA testing and crawling
 
 ## Install
 
 ```
-npm install lets-fetch
+npm install temporary-mail
 ```
 
 ## Usage
 
 ```js
-import TemporaryMail from './index'
+import TemporaryMail from 'temporary-mail'
 
 const mail = new TemporaryMail()
 
