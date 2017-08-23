@@ -1,0 +1,23 @@
+{
+  "name": "temporary-mail",
+  "version": "0.1.0",
+  "description": "Temporary mailboxes for end-to-end testing, QA testing and crawling",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "abc lint",
+    "build": "abc build",
+    "version": "abc build"
+  },
+  "repository": "https://github.com/thingylabs/temporary-mail",
+  "author": "queicherius@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "abc-environment": "^2.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^3.0.0",
+    "execall": "^1.0.0",
+    "node-fetch": "^1.7.2"
+  }
+}
