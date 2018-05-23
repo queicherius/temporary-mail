@@ -1,12 +1,14 @@
 const debug = require('debug')('temporary-mail')
 import TenMinuteMailProvider from './providers/10minutemail'
+import MailSuckerProvider from './providers/mailsucker'
 
 const PROVIDERS = {
-  '10minutemail': TenMinuteMailProvider
+  '10minutemail': TenMinuteMailProvider,
+  'mailsucker': MailSuckerProvider
 }
 
 const DEFAULT_OPTIONS = {
-  provider: '10minutemail',
+  provider: 'mailsucker',
   pollTimeout: 1000
 }
 
