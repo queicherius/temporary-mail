@@ -1,6 +1,6 @@
 {
   "name": "temporary-mail",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Temporary mailboxes for end-to-end testing, QA testing and crawling",
   "main": "build/index.js",
   "scripts": {
